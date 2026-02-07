@@ -1,9 +1,5 @@
 # 🏦 Quantitative Risk Analysis: JPM vs. Market Volatility
 
-![Python](https://img.shields.io/badge/Python-3.10%2B-blue)
-![Status](https://img.shields.io/badge/Status-Completed-success)
-![Domain](https://img.shields.io/badge/Domain-Quantitative_Finance-green)
-
 ### 📌 Project Overview
 **Can we scientifically quantify and predict the downside risk of a major financial asset better than the market itself?**
 
