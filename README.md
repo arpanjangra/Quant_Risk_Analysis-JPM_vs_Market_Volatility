@@ -1,6 +1,6 @@
-# 🏦 Quantitative Risk Analysis: JPM vs. Market Volatility
+# Quantitative Risk Analysis: JPM vs. Market Volatility
 
-### 📌 Project Overview
+### Project Overview
 **Can we scientifically quantify and predict the downside risk of a major financial asset better than the market itself?**
 
 This project implements a comparative forecasting engine to model the daily returns and volatility risk of **JPMorgan Chase (JPM)**. By benchmarking Classical Statistical methods (**ARIMAX**) against Modern Machine Learning (**XGBoost**), this analysis seeks to filter "signal" from "noise" in high-frequency financial data.
@@ -9,7 +9,7 @@ The model incorporates **Systematic Risk** by using the **S&P 500 (SPY)** as a b
 
 ---
 
-### 📊 Key Visualizations
+### Key Visualizations
 The following diagnostic plots demonstrate the model's accuracy and statistical validity.
 
 #### 1. Forecast Performance & Risk Quantification
@@ -26,14 +26,14 @@ The following diagnostic plots demonstrate the model's accuracy and statistical 
 
 ---
 
-### ❓ The Question (Problem Statement)
+### The Question (Problem Statement)
 Financial markets are non-stationary and noisy. A major challenge in quantitative finance is distinguishing between:
 1.  **Random Noise:** Daily fluctuations that cannot be predicted (Efficient Market Hypothesis).
 2.  **Systematic Patterns:** Repeatable behaviors like Volatility Clustering (risk usually follows risk) and Mean Reversion.
 
 **The Goal:** Build a model that achieves a Root Mean Squared Error (RMSE) lower than the market's natural standard deviation, thereby proving statistical "Information Gain."
 
-### ✅ The Answer (Results)
+### The Answer (Results)
 By combining statistical rigor with non-linear machine learning, the **Ensemble Model** successfully reduced forecast uncertainty compared to the naive baseline.
 
 | Metric | Benchmark (Market Volatility) | Ensemble Model (RMSE) | Performance |
@@ -42,7 +42,7 @@ By combining statistical rigor with non-linear machine learning, the **Ensemble 
 
 ---
 
-### 🛠️ Libraries & Tech Stack
+### Libraries & Tech Stack
 This project relies on the following Python libraries for data extraction, statistical modeling, and machine learning:
 
 | Library | Purpose |
@@ -54,10 +54,6 @@ This project relies on the following Python libraries for data extraction, stati
 | **`pandas` & `numpy`** | Time-series data manipulation, Log-Return transformations, and vector math. |
 | **`matplotlib`** | Generation of diagnostic plots, histograms, and confidence interval visualizations. |
 
----
-
-### 🚀 How to Run
-Follow these steps to reproduce the analysis and generate the visualizations on your local machine.
 
 #### 1. Clone the Repository
 Open your terminal (Command Prompt or Git Bash) and run: https://github.com/arpanjangra/Quant_Risk_Analysis-JPM_vs_Market_Volatility.git
